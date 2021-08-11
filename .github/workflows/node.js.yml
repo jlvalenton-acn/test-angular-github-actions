@@ -56,5 +56,5 @@ jobs:
         uses: jvalenton-acn/test-angular-github-actions@main
         with:
           branch: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FOLDER: deploy_dist/angular-demo
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # FOLDER: deploy_dist/angular-demo
