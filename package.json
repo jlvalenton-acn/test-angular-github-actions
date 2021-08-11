@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-path=dist --base-href='https://jlvalenton-acn.github.io/test-angular-github-actions/'",
+    "build": "ng build --prod --sourceMap=false --base-href='https://github.com/jlvalenton-acn/test-angular-github-actions'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
