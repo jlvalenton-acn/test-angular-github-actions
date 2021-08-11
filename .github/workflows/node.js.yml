@@ -53,7 +53,7 @@ jobs:
         with:
           name: deploy_dist
       - name: Deploy to GitHub Pages
-        uses: jvalenton/test-angular-github-actions@main
+        uses: jvalenton-acn/test-angular-github-actions@main
         with:
           branch: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
