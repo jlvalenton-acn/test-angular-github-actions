@@ -28,7 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     # "build": "ng build --prod --output-path=dist --base-href='https://jlvalenton-acn.github.io/test-angular-github-actions/'",
-    - run: npm test
+    # - run: npm test
     - name: Archive build
       if: success()
       uses: actions/upload-artifact@v1
